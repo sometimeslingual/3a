@@ -1,0 +1,50 @@
+Jacob Hawkins
+9/21/2024
+
+----
+
+This program will ask a user for their monthly expenses, and display them.
+
+----
+
+Logical Steps:
+1. is initialized with main().
+2. asks the user how many expenses they have.
+3. asks the user to input each expenses' name and amount individually.
+4. will display the total amount and highest expense.
+
+----
+
+Variables:
+1. expenses: stores the user's monthly expenses as a list of tuples. 
+2. num_expenses: stores the number of expenses that the user will input.
+3. expense_type: temporarily holds the name/type of a specific expense while gathering input.
+4. expense_amount: same as #3, but holds the monetary value instead.
+5. total_expense: stores the total of all the expenses.
+6. highest_expense: stores the highest expense.
+7. lowest_expense: stores the lowest expense.
+
+----
+
+Functions:
+1. get_expenses()
+	Description: contains the entire process in which the program acquires the data from the user.
+	Parameters: none
+	Returns: a list of tuples where each tuple represents an expense.
+2. analyze_expenses(expenses)
+	Description: calculates the highest, lowest and total expense.
+	Parameters: expenses
+	Returns: the total of all expenses, the highest expense and the lowest expense.
+3. main()
+	Description: calls the two other functions and initializes the program.
+	Parameters: none
+	Returns: none
+
+----
+
+Link: 
+
+----
+
+Jacob Hawkins
+9/21/2024
